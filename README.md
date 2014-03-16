@@ -1,4 +1,4 @@
-sublime-warmneon
+Sublime WarmNeon
 ================
 
 Sublime text WarmNeon color scheme
