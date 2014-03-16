@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>author</key>
-	<string>Onrik</string>
-	<key>name</key>
-	<string>WarmNeon</string>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
@@ -15,6 +11,8 @@
 		<key>foreground</key>
 		<string>#75715E</string>
 	</dict>
+	<key>name</key>
+	<string>WarmNeon</string>
 	<key>semanticClass</key>
 	<string>theme.dark.warm_neon</string>
 	<key>settings</key>
@@ -44,7 +42,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75725e</string>
+				<string>#ff6666</string>
 			</dict>
 		</dict>
 		<dict>
@@ -66,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e42e13</string>
+				<string>#e54242</string>
 				<key>fontStyle</key>
 				<string> bold </string>
 			</dict>
@@ -269,11 +267,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f9266b</string>
+				<string>#ffcccc</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#f8f8f0</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
