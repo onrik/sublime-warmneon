@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>gutterSettings</key>
@@ -21,7 +21,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#404040</string>
+				<string>#454545</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
@@ -29,9 +29,11 @@
 				<key>invisibles</key>
 				<string>#49483E</string>
 				<key>lineHighlight</key>
-				<string>#49483E</string>
+				<string>#353535</string>
 				<key>selection</key>
-				<string>#49483E</string>
+				<string>#439A48</string>
+				<key>selectionForeground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -148,6 +150,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffffff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -168,8 +172,6 @@
 			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ffffff</string>
 			</dict>
