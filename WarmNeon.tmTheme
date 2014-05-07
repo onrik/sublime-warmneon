@@ -60,6 +60,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>String escape</string>
+			<key>scope</key>
+			<string>string constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00ff00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String quoted</string>
+			<key>scope</key>
+			<string>string.quoted source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d2c200</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
@@ -145,7 +167,7 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -223,7 +245,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66d4ef</string>
+				<string>#00c5cc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -261,6 +283,18 @@
 				<string></string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python docstring</string>
+			<key>scope</key>
+			<string>string.quoted.double.block.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d2c200</string>
+			</dict>
+		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
