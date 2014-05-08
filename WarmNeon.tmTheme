@@ -60,17 +60,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String escape</string>
-			<key>scope</key>
-			<string>string constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#00ff00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>String quoted</string>
 			<key>scope</key>
 			<string>string.quoted source</string>
@@ -167,7 +156,7 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<string>entity.name.class, entity.name.type.class, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -321,6 +310,17 @@
 				<string>#b281ff</string>
 				<key>foreground</key>
 				<string>#f8f8f0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String escape</string>
+			<key>scope</key>
+			<string>string constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00ff00</string>
 			</dict>
 		</dict>
 	</array>
