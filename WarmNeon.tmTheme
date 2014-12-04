@@ -21,7 +21,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#515151</string>
+				<string>#494949</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
@@ -123,7 +123,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cca000</string>
+				<string>#CA9E4D</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -276,20 +278,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Python docstring</string>
-			<key>scope</key>
-			<string>string.quoted.double.block.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#d2c200</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
-		
-		<dict>
-			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
@@ -325,6 +313,34 @@
 			<dict>
 				<key>foreground</key>
 				<string>#00ff00</string>
+			</dict>
+		</dict>
+
+<!-- ================ PYTHON ==================== -->
+		<dict>
+			<key>name</key>
+			<string>Python docstring</string>
+			<key>scope</key>
+			<string>string.quoted.double.block.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d2c200</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python list</string>
+			<key>scope</key>
+			<string>punctuation.definition.list.begin.python, punctuation.definition.list.end.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -381,7 +397,7 @@
 			<key>name</key>
 			<string>Python assignment</string>
 			<key>scope</key>
-			<string>keyword.operator.assignment.python, keyword.operator.comparison.python, keyword.operator.arithmetic.python, punctuation.section.function.begin.python</string>
+			<string>keyword.operator.assignment.python, keyword.operator.comparison.python, keyword.operator.arithmetic.python, punctuation.section.function.begin.python, punctuation.section.class.begin.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -434,6 +450,108 @@
 			<string>keyword.other.python</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+<!-- ============== GO ==================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Go modifier</string>
+			<key>scope</key>
+			<string>storage.modifier.go</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CA9E4D</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Go function</string>
+			<key>scope</key>
+			<string>entity.name.function.go</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Go function call</string>
+			<key>scope</key>
+			<string>meta.function-call.go, support.function.any-method.go, support.function.go</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BC28E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Go parameters</string>
+			<key>scope</key>
+			<string>variable.parameters.go</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B9B9B9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Go parameters</string>
+			<key>scope</key>
+			<string>keyword.operator.assignment.go, keyword.operator.comparison.go</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+
+<!-- ================ HTML ==================== -->
+
+		<dict>
+			<key>name</key>
+			<string>HTML tag</string>
+			<key>scope</key>
+			<string>entity.name.tag.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.structure.any.html, entity.name.tag.inline.any.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d0a56e</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.html, entity.other.attribute-name.id.html, meta.tag.inline.any.html, punctuation.separator.key-value.html, meta.tag.any.html, meta.tag.block.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ded587</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML string</string>
+			<key>scope</key>
+			<string>string.quoted.double.html, string.quoted.single.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#37c041</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 			</dict>
