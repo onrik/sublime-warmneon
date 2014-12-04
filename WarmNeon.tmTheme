@@ -21,7 +21,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#494949</string>
+				<string>#515151</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
@@ -371,7 +371,7 @@
 			<key>name</key>
 			<string>Python unicode string</string>
 			<key>scope</key>
-			<string>string.quoted.single.single-line.unicode.python, string.quoted.double.single-line.unicode.python</string>
+			<string>string.quoted.single.single-line.unicode.python, string.quoted.double.single-line.unicode.python, storage.type.string.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -397,7 +397,7 @@
 			<key>name</key>
 			<string>Python assignment</string>
 			<key>scope</key>
-			<string>keyword.operator.assignment.python, keyword.operator.comparison.python, keyword.operator.arithmetic.python, punctuation.section.function.begin.python, punctuation.section.class.begin.python</string>
+			<string>keyword.operator.assignment.python, keyword.operator.comparison.python, keyword.operator.arithmetic.python, punctuation.section.function.begin.python, punctuation.section.class.begin.python, keyword.operator.assignment.augmented.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -452,6 +452,17 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python escape char</string>
+			<key>scope</key>
+			<string>constant.character.escape.linefeed.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00ff00</string>
 			</dict>
 		</dict>
 
@@ -516,7 +527,6 @@
 		</dict>
 
 <!-- ================ HTML ==================== -->
-
 		<dict>
 			<key>name</key>
 			<string>HTML tag</string>
@@ -554,6 +564,29 @@
 				<string>#37c041</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+			</dict>
+		</dict>
+<!-- ================ JSON ==================== -->
+		<dict>
+			<key>name</key>
+			<string>Json base</string>
+			<key>scope</key>
+			<string>source.json</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Json key</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value.json</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 	</array>
