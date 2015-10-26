@@ -465,6 +465,17 @@
 				<string>#00ff00</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python dict brace</string>
+			<key>scope</key>
+			<string>punctuation.definition.dict.begin.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
 
 <!-- ============== GO ==================== -->
 
@@ -531,7 +542,7 @@
 			<key>name</key>
 			<string>HTML tag</string>
 			<key>scope</key>
-			<string>entity.name.tag.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.structure.any.html, entity.name.tag.inline.any.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
+			<string>entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.structure.any.html, entity.name.tag.inline.any.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
